@@ -63,7 +63,7 @@ li {
 
 .header img {
   position: absolute;
-  right: 5%;
+  right: 20%;
   bottom: 0;
   width: 60rem;
   z-index: -1;
@@ -76,6 +76,7 @@ li {
 
   .header img {
     width: 50rem;
+    right:5%;
   }
 }
 
@@ -232,7 +233,7 @@ li {
 .hero {
   position: absolute;
   top: 50%;
-  transform: translate(25%, -50%);
+  transform: translate(125%, -50%);
   color: #fff;
 }
 
@@ -266,6 +267,12 @@ li {
   background-color: transparent;
 }
 
+@media only screen and (max-width: 1300px) {
+  .hero {
+    transform: translate(25%, -50%);
+  }
+}
+
 @media only screen and (max-width: 996px) {
   .hero {
     transform: translate(10%, -50%);
@@ -281,7 +288,7 @@ li {
 .icons {
   position: absolute;
   bottom: 5%;
-  left: 10%;
+  left: 4%;
   color: #fff;
 }
 
