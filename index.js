@@ -73,7 +73,7 @@ new TypeIt('#type2',{
 .pause(500).delete(8)
 .type('Developer', {delay:400})
 .pause(500).delete(9)
-.type('Engineer', {delay:400})
+.type('Web Engineer', {delay:400})
 .go();
 
 //GSAP

@@ -285,7 +285,12 @@ li {
   color: #fff;
 }
 
-.icons span:not(:last-child) {
+.icons a:link,
+.icons a:visited {
+  color:#fff;
+}
+
+.icons a:not(:last-child) {
   margin-right: 1rem;
 }
 
