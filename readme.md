@@ -1,1 +1,1 @@
-To view a working version please use the following link: https://sumitup007.github.io/sumitka/
+Please use the following link for Demo: https://sumitup007.github.io/sumitka/
