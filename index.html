@@ -14,6 +14,17 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="./style.css"/>
     <title>Sumit Kataruka Portfolio</title>
+    <!--aos-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+    <!--glidejs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js" defer></script>
+    <!--typeit-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js" defer></script>
+    <!--gsap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" defer></script>
+    
+    <!--Custom Script-->
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <header class="header" id="home">
@@ -142,20 +153,23 @@
             </div>
           </div>
           <div class="right">
-            <form class="form">
+            <form class="form" action="https://formsubmit.co/sumitk6007@gmail.com" method="POST">
               <h2>Message me</h2>
               <div>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
+                <input type="text" placeholder="Name" name="name" class="form-control" required/>
+                <input type="email" placeholder="Email" name="email" class="form-control" required/>
               </div>
-              <input type="text" placeholder="Subject" />
+              <input type="text" placeholder="Subject" name="_subject"/>
               <textarea
+                class="form-control"
+                name="message"
                 cols="10"
                 rows="10"
                 placeholder="Message"
+                required
               ></textarea>
-  
-              <a href="#" class="btn">Send message</a>
+              <input type="hidden" name="_captcha" value="false">
+              <button class="btn">Send message</button>
             </form>
           </div>
         </div>
@@ -163,16 +177,6 @@
     <footer>
         <p>Created By <span>Sumit Kataruka</span> | &copy; 2021 All rights reserved.</p>
     </footer>
-    <!--aos-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <!--glidejs-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
-    <!--typeit-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
-    <!--gsap-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     
-    <!--Custom Script-->
-    <script src="./index.js"></script>
 </body>
 </html>

@@ -497,6 +497,27 @@ a.btn:active {
   margin-bottom: 3rem;
 }
 
+.form button.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #AA0000;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: 2px solid #AA0000;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 300ms ease-in-out;
+}
+
+.form button.btn:hover {
+  transform: translateY(-3px);
+  background-color: transparent;
+  color: inherit;
+}
+
+.form button.btn:active {
+  transform: translateY(0px);
+}
+
 @media only screen and (max-width: 768px) {
   .contact-center {
     grid-template-columns: 1fr;
