@@ -390,7 +390,7 @@ a.btn {
 }
 
 a.btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   background-color: transparent;
   color: inherit;
 }
@@ -409,8 +409,12 @@ a.btn:active {
   }
 
   a.btn {
-    padding: 0.7rem 1.8rem;
     float: none;
+  }
+
+  .resumeBtn{
+    text-align: center;
+    margin-top: 50px;
   }
 
   .left img {
@@ -512,7 +516,7 @@ a.btn:active {
 }
 
 .form button.btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   background-color: transparent;
   color: inherit;
 }
