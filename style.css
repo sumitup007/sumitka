@@ -17,7 +17,7 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   background-color: #fff;
-  color: #111;
+  color: #000;
   position: relative;
   z-index: 0;
 }
@@ -57,7 +57,7 @@ li {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: #000;
+  background: #111;
   z-index: 1;
 }
 
@@ -379,7 +379,6 @@ li {
 }
 
 a.btn {
-  display: inline-block;
   padding: 1rem 2rem;
   background: #AA0000;
   color: #fff;
@@ -387,6 +386,7 @@ a.btn {
   border: 2px solid #AA0000;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   transition: all 300ms ease-in-out;
+  float: right;
 }
 
 a.btn:hover {
@@ -410,6 +410,7 @@ a.btn:active {
 
   a.btn {
     padding: 0.7rem 1.8rem;
+    float: none;
   }
 
   .left img {
@@ -507,6 +508,7 @@ a.btn:active {
   border: 2px solid #AA0000;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   transition: all 300ms ease-in-out;
+  font-size: 1.6rem;
 }
 
 .form button.btn:hover {
