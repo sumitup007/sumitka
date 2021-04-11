@@ -487,6 +487,14 @@ a.btn:active {
   border-color: #fff;
 }
 
+.theme {
+  background-color: #000;
+}
+
+.theme .title {
+  color: #fff;
+}
+
 /* Contact */
 .contact-center {
   display: grid;
