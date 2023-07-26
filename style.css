@@ -452,7 +452,7 @@ a.btn:active {
 
 .project .img-cover {
   overflow: hidden;
-  border: 2px solid #AA0000;
+  padding:20px;
   height: 13rem;
   width: 25rem;
   margin: 0 auto;
